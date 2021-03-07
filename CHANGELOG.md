@@ -7,6 +7,7 @@
 - support class-based auth checker, which allows for dependency injection
 - allow defining directives for interface types and theirs fields, with inheritance for object types fields (#744)
 - allow deprecating input fields and args (#794)
+- adds a method to build TypeDefs and Resolvers in Sync mode (#803)
 ### Fixes
 - allow defining extension on field resolver level for fields also defined as a property of the class (#776)
 - fix throwing error when schema with dynamic default value was built again (#787)
